@@ -164,6 +164,10 @@ width: 500px;
 }
 #footer {
 	grid-area: footer;
+	background-image: url(../img/background.png);
+	background-size: cover;
+	height: 120px;
+	margin-top: 50px;
 }
 #datos {
 	grid-area: datos;
