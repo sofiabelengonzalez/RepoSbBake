@@ -164,7 +164,7 @@ width: 500px;
 }
 #footer {
 	grid-area: footer;
-	background-image: url(../img/header.png);
+	background-image: url(../img/footer.png);
 	background-size: cover;
 	width: 100%;
 }
