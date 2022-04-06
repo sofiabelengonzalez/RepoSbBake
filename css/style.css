@@ -158,11 +158,6 @@ width: 500px;
 #header {
 	grid-area: header;
     margin-top: 120px;
-    animation-name: animateHeader;
-	animation-iteration-count: 1;
-	animation-timing-function: linear;
-	animation-duration: 6s;
-	animation-delay: 1s;
 }
 #main {
 	grid-area: main;
@@ -212,16 +207,7 @@ width: 500px;
 		width: 250px;
 	}
 }
-	.transform:hover {
-		transform: translate(10px,25px);
-		cursor: pointer;
-	}
-	@keyframes animateHeader {
-		0% {width: 10%}
-		33% {width: 40%}
-		63% {width: 70%}
-		100% {width: 100%}
-		}
+	
 	@keyframes textAlpha {
 		from {opacity: 0;}
 		to {opacity: 1;}
