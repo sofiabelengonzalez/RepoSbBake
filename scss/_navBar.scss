@@ -26,6 +26,9 @@
 	ul {
 		display: flex;
 		li {
+			@media (max-width: 350px;){
+				display: none;
+			}
 			list-style: none;
 			display: flex;
 			margin-right: 100px;
