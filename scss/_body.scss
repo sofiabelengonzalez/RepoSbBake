@@ -1,0 +1,47 @@
+.contenedor{
+	background-image: url(../img/background.png);
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-color: $mainColor;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto auto auto auto auto auto;
+	grid-template-areas: "nav nav" "header header" "main main" "datos envio" "mapa mapa" "footer .";
+}
+#main {
+	display: grid;
+	flex-direction: column;
+	align-items: center;
+	article {
+		align-items: center;
+		text-align: center;
+	}
+	h1 {
+		@include texto($fontM,500,$secondColor)
+	}
+	h2 {
+		@include texto($fontS,400,$thirdColor)
+	}
+
+	h3 {
+		@include texto ($fontXs,400,$fourthColor)
+	}
+
+	p {
+	width: 600;
+	height:auto;
+	overflow: auto;
+	margin: 10px auto;
+	padding:20px 100px ;
+	box-sizing: border-box;
+	border-style: solid;
+	border-width: 5px;
+	border-color: $fifthColor;
+	@include texto($fontXs,300,$fourthColor)
+	line-height: 2.4 rem;
+	background-color: $mainColor;
+	animation-name: textAlpha;
+	animation-duration: 15s;
+	animation-timing-function: ease;
+	}
+}

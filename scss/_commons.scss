@@ -1,0 +1,16 @@
+$mainColor: #f2c05e;
+$secondColor: #e4c898;
+$thirdColor:  #8f7518;
+$fourthColor: #000000;
+$fifthColor: lightgrey;
+
+@mixin texto($font-size,$font-weight,$color) {
+	font-size: $font-size;
+	font-weight: $font-weight;
+	color: $color;
+	text-align: center;
+}
+@keyframes textAlpha {
+		from {opacity: 0;}
+		to {opacity: 1;}
+	}
