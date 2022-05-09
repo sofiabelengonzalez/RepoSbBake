@@ -18,9 +18,7 @@
 
 .img__galeria {
 	width: 300px;
-	display: flex;
-	box-sizing: border-box;
-	overflow: auto;
+	object-fit: cover;
 }
 table {
 	display: grid;
